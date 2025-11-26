@@ -1,0 +1,14 @@
+[
+    {
+        "empresa": "GhostAI Demo",
+        "email": "admin@ghostai.test",
+        "senha": "$2b$12$EXEMPLO_HASH_BCRYPT",
+        "role": "admin"
+    },
+    {
+        "empresa": "JPSA LTDA",
+        "email": "soares.j2003@gmail.com",
+        "senha": "$2b$12$i1jPh9gf4/iBU7aOHacgeOgSX6/5Z6Qefp0UnrkxFYzMpGRGIj1Ry",
+        "role": "user"
+    }
+]

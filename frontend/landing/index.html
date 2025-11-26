@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="/landing-static/style.css"/>
+  <title>GhostAI 👻 Business</title>
+</head>
+
+<body>
+<header>
+  <a href="/" class="logo">GhostAI 👻</a>
+
+  <button onclick="go('/login')" class="minimal-login">Login</button>
+</header>
+
+<section class="hero full-background" aria-label="Hero">
+  <video class="hero-bg" autoplay muted loop playsinline preload="auto">
+    <source src="/landing-static/banner-4k(1).mp4" type="video/mp4">
+  </video>
+
+  <div class="hero-inner">
+    <h1>Dobre sua capacidade de atendimento e vendas com IA</h1>
+    <p class="subtitle">Sem pagamento agora. Primeiro entendemos seu negócio. Depois você decide continuar ou não.</p>
+    <button class="cta big" onclick="go('/checkout')">Iniciar diagnóstico →</button>
+    <p class="trust-note">Não é pagamento — é apenas uma solicitação de análise.</p>
+  </div>
+</section>
+
+<!-- BENEFÍCIOS -->
+<section class="benefits section-muted">
+  <h2>✨ Sua operação funcionando no automático: simples, escalável e humana.</h2>
+
+  <div class="grid">
+    <div class="card">
+      🤖 <h3>Atendimento inteligente 24/7</h3>
+      <p>Responde clientes no WhatsApp, Instagram e site — sem atrasos e com personalidade da sua marca.</p>
+    </div>
+    <div class="card">
+      💸 <h3>Vendas sem esforço</h3>
+      <p>Qualifica leads, apresenta ofertas, envia links de compra e gerencia follow-up automaticamente.</p>
+    </div>
+    <div class="card">
+      📊 <h3>Insights automáticos</h3>
+      <p>Conversas viram dados claros. Tenha métricas, relatórios e previsibilidade em um painel.</p>
+    </div>
+  </div>
+</section>
+
+<!-- COMO FUNCIONA -->
+<section class="how section-glass">
+  <h2>Como funciona o processo?</h2>
+  <div class="steps">
+    <div><strong>1.</strong> Você responde algumas perguntas sobre seu negócio (3–5 min)</div>
+    <div><strong>2.</strong> Nossa equipe analisa e sugere a melhor automação</div>
+    <div><strong>3.</strong> Se fizer sentido, ativamos seu sistema de IA</div>
+  </div>
+
+  <p class="micro-text">Sem compromisso. Sem cobrança automática.</p>
+  <button onclick="location.href='/checkout'" class="cta small">Iniciar diagnóstico</button>
+</section>
+
+<!-- PLANOS -->
+<section class="pricing section-dark">
+  <h2>💰 Quanto custa implementar GhostAI?</h2>
+
+  <p class="pricing-sub">
+    <strong>Calma 😉 — aqui você ainda não está contratando nada.</strong><br>
+    Esses valores são apenas uma referência.<br>
+    Antes de qualquer decisão, você passa por uma análise personalizada com nossa equipe.
+  </p>
+
+  <div class="pricing-grid">
+
+    <!-- Starter -->
+    <div class="pricing-card">
+      <span class="tag">Para começar</span>
+      <h3>Starter ⚡</h3>
+      <p class="price">R$149/mês</p>
+      <p class="setup">+ R$297 setup único</p>
+      <ul>
+        <li>🤖 WhatsApp automatizado</li>
+        <li>⚡ Respostas rápidas</li>
+        <li>📅 Agendamento básico</li>
+      </ul>
+      <button onclick="go('/checkout')" class="btn">Quero ser avaliado →</button>
+    </div>
+
+    <!-- Growth -->
+    <div class="pricing-card popular">
+      <div class="badge">Mais escolhido 🔥</div>
+      <h3>Growth 🚀</h3>
+      <p class="price">R$349/mês</p>
+      <p class="setup">+ R$497 setup único</p>
+      <ul>
+        <li>🧲 Funil de vendas completo</li>
+        <li>📩 Follow-up automático</li>
+        <li>🔗 Integração CRM</li>
+      </ul>
+      <button onclick="go('/checkout')" class="btn primary">Quero ser avaliado →</button>
+    </div>
+
+    <!-- Full -->
+    <div class="pricing-card">
+      <span class="tag">Para alta demanda</span>
+      <h3>Full Automation 👻</h3>
+      <p class="price">R$697/mês</p>
+      <p class="setup">+ R$997 setup único</p>
+      <ul>
+        <li>🧠 IA treinada com sua empresa</li>
+        <li>🪄 Automação avançada multicanal</li>
+        <li>📊 Painéis + relatórios inteligentes</li>
+      </ul>
+      <button onclick="go('/checkout')" class="btn">Quero ser avaliado →</button>
+    </div>
+
+  </div>
+
+  <p class="micro-note">
+    ✔ Nenhum pagamento agora — primeiro sua operação é analisada<br>
+    ✔ Após a avaliação, você decide se continua ou não<br><br>
+    *Valores podem variar conforme volume de mensagens e integrações.*
+  </p>
+</section>
+
+<!-- COMPARAÇÃO -->
+<section class="compare section-muted">
+  <h2>Por que empresas estão escolhendo IA ao invés de mais funcionários?</h2>
+
+  <div class="columns">
+    <div class="left">
+      <h3>👤 Funcionário</h3>
+      <ul>
+        <li>⛔ Trabalha 8 horas por dia</li>
+        <li>⛔ Erra, esquece, se estressa e precisa de treinamento</li>
+        <li>⛔ Não atende 50 pessoas ao mesmo tempo</li>
+        <li>⛔ Pode perder oportunidades</li>
+      </ul>
+    </div>
+
+    <div class="right highlight">
+      <h3>👻 GhostAI</h3>
+      <ul>
+        <li>✔ Responde milhares de pessoas simultaneamente</li>
+        <li>✔ Sempre educada, rápida e treinada com sua lógica</li>
+        <li>✔ Disponível 24 horas por dia, 7 dias por semana</li>
+        <li>✔ Não esquece nada — nunca perde um lead</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CASOS -->
+<section class="usecases section-dark">
+  <h2>Serve para praticamente qualquer segmento:</h2>
+
+  <div class="grid">
+    <div class="tag">🍕 Restaurantes — automação de pedidos + upsell</div>
+    <div class="tag">🩺 Clínicas — confirmação automática de consultas</div>
+    <div class="tag">🛍 E-commerce — catálogo, carrinho e recuperação</div>
+    <div class="tag">📚 Infoprodutos — suporte + páginas automáticas</div>
+    <div class="tag">⚒ Serviços — agendamento e atendimento pré-filtrado</div>
+  </div>
+</section>
+
+<!-- PROVA SOCIAL -->
+<section class="testimonials section-glass">
+  <h2>Histórias reais de ganho de tempo (e vendas):</h2>
+
+  <div class="testimonial">
+    ⭐⭐⭐⭐⭐  
+    <p>"Antes eu respondia mensagens o dia todo. Agora o sistema responde, vende e só me avisa quando fechar."</p>
+    <span>— Pedro S., Barbershop 78</span>
+  </div>
+
+  <div class="testimonial">
+    ⭐⭐⭐⭐⭐  
+    <p>"60% das vendas agora chegam automaticamente do funil da IA."</p>
+    <span>— Larissa M., HomeLux Store</span>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq section-muted">
+  <h2>Dúvidas frequentes</h2>
+  <details><summary>Vou pagar alguma coisa agora?</summary><p>Não. A inscrição apenas envia seus dados para avaliação. Você só paga se decidir avançar após a reunião.</p></details>
+  <details><summary>Preciso saber programar?</summary><p>Não. Todo o processo é guiado.</p></details>
+  <details><summary>Funciona com WhatsApp?</summary><p>Sim. Integra WhatsApp, Instagram, site e muito mais.</p></details>
+  <details><summary>E se meus clientes fizerem perguntas difíceis?</summary><p>A IA aprende sobre seu negócio, tom de voz e casos específicos.</p></details>
+</section>
+
+<!-- CTA FINAL -->
+<section class="final section-dark">
+  <h2>⏳ Cada dia sem automação custa tempo, energia e oportunidades.</h2>
+  <button onclick="location.href='/checkout'" class="cta big">Solicitar análise gratuita →</button>
+  <p class="micro-text">Sem compromisso. Sem cartão. Apenas o primeiro passo.</p>
+</section>
+
+<footer>© GhostAI — 2025 • Todos os direitos reservados</footer>
+
+<button id="ghost-chat-btn" aria-label="Abrir chat">👻</button>
+
+<div id="ghost-chat" role="dialog" aria-label="Assistente GhostAI">
+  <header>GhostAI Assistant <span id="chat-close" style="cursor:pointer">✖</span></header>
+  <div id="chat-log" aria-live="polite"></div>
+  <form id="chat-form"><input id="chat-input" type="text" placeholder="Digite aqui..." autocomplete="off" /><button type="submit">➤</button></form>
+</div>
+
+<script src="/landing-js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+Comandos de Terminal da pagina de venda:
+
+.\venv\Scripts\activate : Para habilitar o venv no terminal.
+
+uvicorn backend.main:app --reload : Para rodar o app localmente
+
+ollama run phi3 : Rodar IA Chat Bot
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+8) Admin: criar usuário (exemplo de uso)
+
+Para criar usuário inicial (no terminal ou via script), faça:
+
+curl -X POST "http://127.0.0.1:8000/api/auth/create-user?key=VALOR_DA_ADMIN_API_KEY" \
+ -H "Content-Type: application/json" \
+ -d '{"empresa":"Cliente X","email":"cliente@x.com","password":"Senha123!","role":"admin"}'

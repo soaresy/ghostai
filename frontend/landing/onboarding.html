@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="/landing-static/style.css"/>
+  <title>GhostAI — Diagnóstico</title>
+</head>
+
+<body class="onboarding-page">
+
+<header class="minimal-header">
+  <a href="/" class="logo">GhostAI 👻</a>
+</header>
+
+<section class="onboarding-wrapper">
+  <div class="onboarding-card">
+
+    <!-- Progresso -->
+    <p id="progress-label" class="progress-label">Etapa 1 de 6</p>
+    <div class="progress"><div class="progress-fill" id="progress-fill"></div></div>
+
+    <!-- Form -->
+    <form id="onboarding-form">
+
+      <!-- STEP 1 -->
+      <div class="step active">
+        <h2>Vamos começar 👋</h2>
+        <p class="step-sub">Como podemos te chamar?</p>
+        <input class="input-field" type="text" name="nome" placeholder="Seu nome completo" required>
+        <button type="button" class="cta next">Continuar →</button>
+      </div>
+
+      <!-- STEP 2 -->
+      <div class="step">
+        <button type="button" class="back-btn">← Voltar</button>
+        <h2>Sobre sua empresa 🏢</h2>
+        <input class="input-field" type="text" name="empresa" placeholder="Nome da empresa" required>
+        <input class="input-field" type="text" name="segmento" placeholder="Segmento (Ex: Clínica, Loja, Agência...)" required>
+        <button type="button" class="cta next">Continuar →</button>
+      </div>
+
+      <!-- STEP 3 -->
+      <div class="step">
+        <button type="button" class="back-btn">← Voltar</button>
+        <h2>Quais objetivos você tem com IA? 🎯</h2>
+        <div class="option-group">
+          <label class="option-item"><input type="checkbox" name="objetivo" value="Atendimento 24/7">Atendimento 24/7</label>
+          <label class="option-item"><input type="checkbox" name="objetivo" value="Vendas automáticas">Vendas automáticas</label>
+          <label class="option-item"><input type="checkbox" name="objetivo" value="Agendamentos">Agendamentos</label>
+          <label class="option-item"><input type="checkbox" name="objetivo" value="Suporte + CRM">Suporte + CRM</label>
+        </div>
+        <button type="button" class="cta next">Continuar →</button>
+      </div>
+
+      <!-- STEP 4 -->
+      <div class="step">
+        <button type="button" class="back-btn">← Voltar</button>
+        <h2>Onde você quer que a IA atue? 🔌</h2>
+        <div class="option-group">
+          <label class="option-item"><input type="checkbox" name="canal" value="WhatsApp">WhatsApp</label>
+          <label class="option-item"><input type="checkbox" name="canal" value="Instagram">Instagram</label>
+          <label class="option-item"><input type="checkbox" name="canal" value="Site">Site</label>
+          <label class="option-item"><input type="checkbox" name="canal" value="E-mail">E-mail</label>
+        </div>
+        <button type="button" class="cta next">Continuar →</button>
+      </div>
+
+      <!-- STEP — VOLUME DIÁRIO -->
+<div class="step">
+  <button type="button" class="back-btn">← Voltar</button>
+  <h2>Qual o volume de mensagens por dia? 📈</h2>
+  <p class="step-sub">Uma estimativa já ajuda bastante.</p>
+
+  <input class="input-field" 
+         type="number" 
+         name="volume" 
+         placeholder="Ex: 30, 50, 100..." 
+         required>
+
+  <button type="button" class="cta next">Continuar →</button>
+</div>
+
+      <!-- STEP 5 -->
+      <div class="step">
+        <button type="button" class="back-btn">← Voltar</button>
+        <h2>Tem links para analisarmos? 🔍</h2>
+        <input class="input-field" type="text" name="links" placeholder="Instagram, site, landing page, catálogo...">
+        <button type="button" class="cta next">Continuar →</button>
+      </div>
+
+      <!-- STEP 6 -->
+      <div class="step">
+        <button type="button" class="back-btn">← Voltar</button>
+        <h2>Conte um pouco mais 📌</h2>
+        <textarea name="descricao" placeholder="Conte em poucas linhas como funciona seu negócio, público e desafios atuais."></textarea>
+        <button type="submit" class="cta submit">Finalizar diagnóstico →</button>
+
+        <p class="trust-note">🔒 Seus dados são privados — usamos apenas para avaliação.</p>
+      </div>
+
+    </form>
+
+    <div class="conversion-note">
+      💬 Mais de 120 negócios já passaram por este diagnóstico.<br>
+      ⏳ Tempo médio: 2–4 minutos.
+    </div>
+
+   </div>
+</section>
+
+<script src="/landing-js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>GhostAI — Dashboard</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- CSS exclusivo do dashboard -->
+  <link rel="stylesheet" href="/dashboard-static/dashboard.css">
+</head>
+
+<body class="dashboard-page">
+
+  <!-- SIDEBAR -->
+  <aside id="sidebar" class="sidebar collapsed">
+    <div class="sidebar-top">
+      <button id="collapseBtn" class="collapse-btn" aria-label="Toggle sidebar">≡</button>
+      <div class="brand">
+        <div class="logo">GhostAI</div>
+        <div class="ghost">👻</div>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <a href="/dashboard" class="nav-item active"><span class="icon">📊</span><span class="label">Dashboard</span></a>
+      <a href="/dashboard/whatsapp" class="nav-item"><span class="icon">💬</span><span class="label">Automação WhatsApp</span></a>
+      <a href="/dashboard/instagram" class="nav-item"><span class="icon">📸</span><span class="label">Automação Instagram</span></a>
+      <a href="/dashboard/email" class="nav-item"><span class="icon">✉️</span><span class="label">Automação Email</span></a>
+      <a href="/dashboard/settings" class="nav-item"><span class="icon">⚙️</span><span class="label">Configurações</span></a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <small>GhostAI • v1.0</small>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <div class="main-wrap">
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header-left">
+        <button id="mobileMenu" class="mobile-menu">☰</button>
+        <div class="search">
+          <input id="searchInput" placeholder="Procurar... (Ctrl+K)" />
+        </div>
+      </div>
+
+      <div class="header-right">
+        <button id="themeToggle" class="btn-ghost" title="Alternar tema">🌙</button>
+
+        <div class="user-menu" id="userMenu">
+          <div class="avatar" id="avatarBtn">J</div>
+          <div class="user-dropdown" id="userDropdown" aria-hidden="true">
+            <div class="user-info">
+              <strong>João</strong>
+              <small>soares.j2003@gmail.com</small>
+            </div>
+            <div class="user-actions">
+              <button id="profileBtn">Perfil</button>
+              <button id="logoutBtn">Logout</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- AURORA BACKGROUND (subtle) -->
+    <div class="aurora"></div>
+
+    <!-- CONTENT -->
+    <main class="content">
+      <h1>Bem-vindo ao seu painel</h1>
+
+      <section class="stats">
+        <article class="card stat">
+          <div class="card-title">Novos Leads</div>
+          <div class="card-value">42</div>
+        </article>
+
+        <article class="card stat">
+          <div class="card-title">Mensagens Automatizadas</div>
+          <div class="card-value">157</div>
+        </article>
+
+        <article class="card stat">
+          <div class="card-title">Canais Integrados</div>
+          <div class="card-value">2</div>
+        </article>
+      </section>
+
+      <section class="panel">
+        <h2>Resumo das automações</h2>
+
+        <div class="status-list">
+          <div class="status-row"><span>Status WhatsApp:</span> <b class="ok">Conectado ✓</b></div>
+          <div class="status-row"><span>Status Instagram:</span> <b class="off">Desconectado ✗</b></div>
+          <div class="status-row"><span>Status Email:</span> <b class="ok">Pronto ✓</b></div>
+        </div>
+      </section>
+
+      <section class="charts">
+        <div class="card chart-card">
+          <h3>Leads por dia (últimos 7 dias)</h3>
+          <canvas id="leadsChart" height="120"></canvas>
+        </div>
+
+        <div class="card chart-card">
+          <h3>Volume Mensal (simulação)</h3>
+          <canvas id="volumeChart" height="120"></canvas>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- JS -->
+  <script src="/dashboard-static/dashboard.js"></script>
+</body>
+</html>

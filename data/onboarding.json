@@ -1,0 +1,619 @@
+[
+    {
+        "descricao": "barbeiro",
+        "objetivo": "Vendas automáticas",
+        "canal": [
+            "whatsapp",
+            "instagram",
+            "site"
+        ],
+        "id": "02d329aa-e309-442e-b359-c888167be635"
+    },
+    {
+        "descricao": "loja de roupas online",
+        "objetivo": "Atendimento automático",
+        "canal": [
+            "whatsapp",
+            "instagram",
+            "site"
+        ],
+        "id": "36aa99ef-456d-4fc9-8fcf-24360f905b4c"
+    },
+    {
+        "nome": "pedro",
+        "email": "soares.j2003@gmail.com",
+        "empresa": "techlog",
+        "plano": "Básico",
+        "descricao": "tecnologia da informação",
+        "objetivo": "Vendas automáticas",
+        "canal": [
+            "whatsapp",
+            "instagram",
+            "site"
+        ],
+        "id": "b66b51df-0dd2-49ea-a1fe-2fbce41b4975"
+    },
+    {
+        "nome": "pedro",
+        "email": "soares.j2003@gmail.com",
+        "empresa": "techlog",
+        "plano": "Básico",
+        "descricao": "tecnologia da informação",
+        "objetivo": "Vendas automáticas",
+        "canal": [
+            "whatsapp",
+            "instagram",
+            "site"
+        ],
+        "id": "1231b417-9ece-4159-a748-c15f3f018de1"
+    },
+    {
+        "nome": "pedro",
+        "email": "soares.j2003@gmail.com",
+        "empresa": "techlog",
+        "plano": "Básico",
+        "descricao": "tecnologia da informação",
+        "objetivo": "Vendas automáticas",
+        "canal": [
+            "whatsapp",
+            "instagram",
+            "site"
+        ],
+        "id": "c34714b8-79d2-45c4-bdf1-e13703a8f1e2"
+    },
+    {
+        "nome": "pedro",
+        "email": "soares.j2003@gmail.com",
+        "empresa": "techlog",
+        "plano": "Básico",
+        "descricao": "tecnologia da informação",
+        "objetivo": "Vendas automáticas",
+        "canal": [
+            "whatsapp",
+            "instagram",
+            "site"
+        ],
+        "id": "054729bf-0d32-450f-a798-d531899d446e"
+    },
+    {
+        "nome": "pedro",
+        "email": "soares.j2003@gmail.com",
+        "empresa": "techlog",
+        "plano": "Básico",
+        "descricao": "tecnologia da informação",
+        "objetivo": "Vendas automáticas",
+        "canal": [
+            "whatsapp",
+            "instagram",
+            "site"
+        ],
+        "id": "75cfa351-472a-49aa-bff0-ba05b71b635d"
+    },
+    {
+        "nome": "sandro",
+        "email": "kgancalves1301@gmail.com",
+        "empresa": "sk solution ltda",
+        "plano": "Profissional",
+        "descricao": "tecnologia da informação",
+        "objetivo": "Vendas automáticas",
+        "porte": "Pequena Empresa (1 - 10 colaboradores)",
+        "segmento": "Prestadores de serviço tecnologico",
+        "canal": [
+            "site"
+        ],
+        "urgencia": "Estou avaliando opções",
+        "links": "https://www.instagram.com/soares.j_/",
+        "id": "cbe063c3-74c0-42eb-a7c2-64203e368bd2"
+    },
+    {
+        "nome": "joao paulo",
+        "email": "jjppssoares@gmail.com",
+        "empresa": "joao paulo ltda",
+        "plano": "Profissional",
+        "descricao": "revenda de tenis online",
+        "objetivo": "Suporte + CRM",
+        "porte": "Pequena Empresa (1 - 10 colaboradores)",
+        "segmento": "Loja online",
+        "canal": [
+            "whatsapp",
+            "instagram",
+            "site"
+        ],
+        "urgencia": "Quero entender mais antes",
+        "links": "https://www.instagram.com/soares.j_/",
+        "id": "c07fa5d7-738b-487d-8f44-dec50975e02f"
+    },
+    {
+        "nome": "João Paulo",
+        "empresa": "joao ltda",
+        "segmento": "tech",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas",
+            "Agendamentos",
+            "Suporte + CRM"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Instagram",
+            "Site"
+        ],
+        "links": "https://www.instagram.com/soares.j_/",
+        "descricao": "apenas vendo serviços de tech, quero automatizar isso tudo",
+        "id": "76805139-5d92-42ec-8f2c-fd0ff33f7a6f"
+    },
+    {
+        "nome": "João Paulo",
+        "empresa": "joao ltda",
+        "segmento": "tech",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas",
+            "Agendamentos",
+            "Suporte + CRM"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Instagram",
+            "Site"
+        ],
+        "links": "https://www.instagram.com/soares.j_/",
+        "descricao": "apenas vendo serviços de tech, quero automatizar isso tudo",
+        "id": "e0f76d2e-8bfb-40af-989f-5e149aa92f67"
+    },
+    {
+        "nome": "João Paulo",
+        "empresa": "joao ltda",
+        "segmento": "tech",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas",
+            "Agendamentos",
+            "Suporte + CRM"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Instagram",
+            "Site"
+        ],
+        "links": "https://www.instagram.com/soares.j_/",
+        "descricao": "apenas vendo serviços de tech, quero automatizar isso tudo",
+        "id": "cf68f847-e05a-4acc-8ba6-3b1ecf831988"
+    },
+    {
+        "nome": "João Paulo",
+        "empresa": "joao ltda",
+        "segmento": "tech",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas",
+            "Agendamentos",
+            "Suporte + CRM"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Instagram",
+            "Site"
+        ],
+        "links": "https://www.instagram.com/soares.j_/",
+        "descricao": "apenas vendo serviços de tech, quero automatizar isso tudo",
+        "id": "db209990-ae4d-43fc-8c6b-4ea023ac1f15"
+    },
+    {
+        "nome": "João Paulo",
+        "empresa": "joao ltda",
+        "segmento": "tech",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas",
+            "Agendamentos",
+            "Suporte + CRM"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Instagram",
+            "Site"
+        ],
+        "links": "https://www.instagram.com/soares.j_/",
+        "descricao": "apenas vendo serviços de tech, quero automatizar isso tudo",
+        "id": "0009c113-52a0-4f22-8c36-25db63b1060f"
+    },
+    {
+        "nome": "João Paulo",
+        "empresa": "joao ltda",
+        "segmento": "tech",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas",
+            "Agendamentos",
+            "Suporte + CRM"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Instagram",
+            "Site"
+        ],
+        "links": "https://www.instagram.com/soares.j_/",
+        "descricao": "apenas vendo serviços de tech, quero automatizar isso tudo",
+        "id": "cdf65055-185b-4cb3-8869-aa522db0b841"
+    },
+    {
+        "nome": "Katiuscia Gonçalves Avila",
+        "empresa": "Sk solutions",
+        "segmento": "Tech ",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas",
+            "Suporte + CRM"
+        ],
+        "canal": [
+            "Site",
+            "E-mail"
+        ],
+        "links": "Não temos",
+        "descricao": "Precisamos de automação nos emais e suporte "
+    },
+    {
+        "nome": "Lucas Avila",
+        "empresa": "Lojas Athenas",
+        "segmento": "Loja de Drop sem chip",
+        "objetivo": [
+            "Vendas automáticas"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Site"
+        ],
+        "links": "@lucas_",
+        "descricao": "loja de dropship"
+    },
+    {
+        "nome": "Douglas",
+        "empresa": "Douglas ltda",
+        "segmento": "advocacia",
+        "objetivo": [
+            "Atendimento 24/7"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Instagram",
+            "Site"
+        ],
+        "links": "douglas",
+        "descricao": "automatizar mensagens"
+    },
+    {
+        "nome": "joao",
+        "empresa": "joao",
+        "segmento": "tech",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas",
+            "Agendamentos",
+            "Suporte + CRM"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Instagram",
+            "Site",
+            "E-mail"
+        ],
+        "links": "soares.j_",
+        "descricao": "revenda de produtos"
+    },
+    {
+        "nome": "João Paulo",
+        "empresa": "Joao ltda",
+        "segmento": "Tech",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas",
+            "Agendamentos",
+            "Suporte + CRM"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Instagram",
+            "Site",
+            "E-mail"
+        ],
+        "links": "soares.j_",
+        "descricao": "Automatizar mensagens",
+        "chat_qualificacao": {
+            "automacao": "estou começando do zero",
+            "segmento": "ola",
+            "canal": "preços?",
+            "volume": "Ola",
+            "objetivo": "automatizar mensagem no whatsapp",
+            "urgencia": "Olá qual o valor da automação?"
+        }
+    },
+    {
+        "nome": "João Paulo Soares",
+        "empresa": "JPSA LTDA",
+        "segmento": "Tech",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Instagram",
+            "Site"
+        ],
+        "links": "@Soares.j_",
+        "descricao": "Automatizar vendas e mensagens para clientes"
+    },
+    {
+        "nome": "João",
+        "empresa": "João LTDA",
+        "segmento": "tech",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Instagram",
+            "Site"
+        ],
+        "links": "soares.j_",
+        "descricao": "automatizar"
+    },
+    {
+        "nome": "Joao",
+        "empresa": "Joao ltda",
+        "segmento": "tech",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Instagram",
+            "Site"
+        ],
+        "links": "soares.j_",
+        "descricao": "automatizar tudo"
+    },
+    {
+        "nome": "joao",
+        "empresa": "joao ltda",
+        "segmento": "tech",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Instagram",
+            "Site"
+        ],
+        "links": "soares.j_",
+        "descricao": "automatização"
+    },
+    {
+        "nome": "joao soares",
+        "empresa": "soares ltda",
+        "segmento": "tech",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Site"
+        ],
+        "links": "soares.j_",
+        "descricao": "tech"
+    },
+    {
+        "nome": "joao",
+        "empresa": "jaoo",
+        "segmento": "tech",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Instagram",
+            "Site"
+        ],
+        "links": "soares",
+        "descricao": "tech"
+    },
+    {
+        "nome": "joao paulo soares",
+        "empresa": "jpsa ltda",
+        "segmento": "tech",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Site"
+        ],
+        "links": "soares.j_",
+        "descricao": "automatizar tarefas"
+    },
+    {
+        "nome": "João Soares",
+        "empresa": "JPSA LTDA",
+        "segmento": "Tech",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Instagram",
+            "Site"
+        ],
+        "links": "soares.j_",
+        "descricao": "Automação de mensagens",
+        "email": "soares.j2003@gmail.com",
+        "whatsapp": "11952110804",
+        "chat_qualificacao": {
+            "automacao": "ola",
+            "segmento": "restaurante",
+            "canal": "whatsapp",
+            "volume": "80",
+            "objetivo": "atendimento",
+            "urgencia": "agora"
+        }
+    },
+    {
+        "nome": "Katy",
+        "empresa": "SK solution",
+        "segmento": "Tech",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Instagram"
+        ],
+        "links": "Soares",
+        "descricao": "automação",
+        "email": "kgoncalves1301@gmail.com",
+        "whatsapp": "11952110804"
+    },
+    {
+        "nome": "Pedro OIiver",
+        "empresa": "FutureAgents",
+        "segmento": "Venda de Infoproduto",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Instagram",
+            "Site"
+        ],
+        "links": "@Futureagentss",
+        "descricao": "Automatizar mensagens enviadas a clientes, montagem de estrategia de markenting",
+        "email": "pedro.oliver@gmail.com",
+        "whatsapp": "11 99178-9960"
+    },
+    {
+        "nome": "jaooa",
+        "empresa": "joaoa",
+        "segmento": "tech",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas",
+            "Agendamentos"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Instagram"
+        ],
+        "volume": "15",
+        "links": "dwadqiwad",
+        "descricao": "adwwadwada",
+        "email": "soares.j@gmail.com",
+        "whatsapp": "11952110804"
+    },
+    {
+        "nome": "Joao",
+        "empresa": "jpsa ltda",
+        "segmento": "tech",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Instagram",
+            "Site"
+        ],
+        "volume": "30",
+        "links": "soaresj_",
+        "descricao": "automatizar msg",
+        "email": "soares.j2003@gmail.com",
+        "whatsapp": "11952110804"
+    },
+    {
+        "nome": "Joao",
+        "empresa": "jpsa ltda",
+        "segmento": "tech",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Instagram",
+            "Site"
+        ],
+        "volume": "30",
+        "links": "soaresj_",
+        "descricao": "automatizar msg",
+        "email": "soares.j2003@gmail.com",
+        "whatsapp": "11952110804"
+    },
+    {
+        "nome": "joao",
+        "empresa": "joao",
+        "segmento": "kkkkk",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas",
+            "Agendamentos"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Instagram",
+            "Site"
+        ],
+        "volume": "34",
+        "links": "ssdad",
+        "descricao": "adwad",
+        "email": "soares.j2003@gmail.com",
+        "whatsapp": "11952110804"
+    },
+    {
+        "nome": "joao",
+        "empresa": "joao",
+        "segmento": "kkkkk",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas",
+            "Agendamentos"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Instagram",
+            "Site"
+        ],
+        "volume": "34",
+        "links": "ssdad",
+        "descricao": "adwad",
+        "email": "soares.j2003@gmail.com",
+        "whatsapp": "11952110804"
+    },
+    {
+        "nome": "João ",
+        "empresa": "Joao ltda",
+        "segmento": "Tech",
+        "objetivo": [
+            "Atendimento 24/7",
+            "Vendas automáticas"
+        ],
+        "canal": [
+            "WhatsApp",
+            "Instagram",
+            "Site"
+        ],
+        "volume": "100",
+        "links": "soares.j_",
+        "descricao": "nfesghuiFEFESE",
+        "email": "soares.j2003@gmail.com",
+        "whatsapp": "11952110804",
+        "chat_qualificacao": {}
+    }
+]
